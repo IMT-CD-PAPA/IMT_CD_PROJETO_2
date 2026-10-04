@@ -1,0 +1,42 @@
+| Dataset | Técnica | Protocolo | Tipo de falha identificada | TPR (IC 95%) | FPR (IC 95%) | Acurácia por classe |
+|---|---|---|---|---|---|---|
+| CWRU | Isolation Forest (limiar temporal; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Isolation Forest (limiar por carga; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar temporal; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar por carga; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar temporal; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar por carga; tempo + faixas de frequência, treino só Normal) | P1 (split temporal 70/30) | não se aplica | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Random Forest (tempo + envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | SVM (RBF) (tempo + envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | kNN (k=5) (tempo + envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Regressão logística (tempo + envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest só com envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest com limiar por carga + Random Forest só com envelope) | P1 (split temporal 70/30) | IR, OR | 100.0% [89.8; 100.0] (n=34) | 0.0% [0.0; 18.4] (n=17) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Isolation Forest (limiar temporal; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 17.1% [10.1; 27.6] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | Isolation Forest (limiar por carga; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 11.4% [5.9; 21.0] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar temporal; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 77.1% [66.0; 85.4] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar por carga; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 60.0% [48.3; 70.7] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar temporal; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 82.9% [72.4; 89.9] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar por carga; tempo + faixas de frequência, treino só Normal) | P2 (leave-one-load-out) | não se aplica | 100.0% [97.3; 100.0] (n=140) | 14.3% [7.9; 24.3] (n=70) | não se aplica (AUROC 1.000) |
+| CWRU | Random Forest (tempo + envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 0.0% [0.0; 5.2] (n=70) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | SVM (RBF) (tempo + envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 0.0% [0.0; 5.2] (n=70) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | kNN (k=5) (tempo + envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 0.0% [0.0; 5.2] (n=70) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Regressão logística (tempo + envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 0.0% [0.0; 5.2] (n=70) | Normal 100.0% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 17.1% [10.1; 27.6] (n=70) | Normal 82.9% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest só com envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 17.1% [10.1; 27.6] (n=70) | Normal 82.9% | IR 100.0% | OR 100.0% |
+| CWRU | Pipeline duas etapas (Isolation Forest com limiar por carga + Random Forest só com envelope) | P2 (leave-one-load-out) | IR, OR | 100.0% [97.3; 100.0] (n=140) | 11.4% [5.9; 21.0] (n=70) | Normal 88.6% | IR 100.0% | OR 100.0% |
+| CWRU | Isolation Forest (limiar temporal; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Isolation Forest (limiar por carga; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar temporal; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | One-Class SVM (limiar por carga; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar temporal; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Mahalanobis (Ledoit-Wolf) (limiar por carga; tempo + faixas de frequência, treino só Normal) | P3 (leave-one-severity-out) | não se aplica | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 18.4] (n=17) | não se aplica (AUROC 1.000) |
+| CWRU | Random Forest (tempo + envelope) | P3 (leave-one-severity-out) | IR, OR | 82.3% [78.3; 85.7] (n=407) | 0.0% [0.0; 7.0] (n=51) | Normal 100.0% | IR 84.3% | OR 32.4% |
+| CWRU | SVM (RBF) (tempo + envelope) | P3 (leave-one-severity-out) | IR | 82.3% [78.3; 85.7] (n=407) | 2.0% [0.3; 10.3] (n=51) | Normal 98.0% | IR 57.4% | OR 0.0% |
+| CWRU | kNN (k=5) (tempo + envelope) | P3 (leave-one-severity-out) | IR, OR | 82.3% [78.3; 85.7] (n=407) | 9.8% [4.3; 21.0] (n=51) | Normal 90.2% | IR 58.4% | OR 33.3% |
+| CWRU | Regressão logística (tempo + envelope) | P3 (leave-one-severity-out) | IR, OR | 82.3% [78.3; 85.7] (n=407) | 3.9% [1.1; 13.2] (n=51) | Normal 96.1% | IR 71.1% | OR 33.3% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest) | P3 (leave-one-severity-out) | IR, OR | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 7.0] (n=51) | Normal 100.0% | IR 88.3% | OR 32.4% |
+| CWRU | Pipeline duas etapas (Isolation Forest + Random Forest só com envelope) | P3 (leave-one-severity-out) | IR, OR | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 7.0] (n=51) | Normal 100.0% | IR 100.0% | OR 66.2% |
+| CWRU | Pipeline duas etapas (Isolation Forest com limiar por carga + Random Forest só com envelope) | P3 (leave-one-severity-out) | IR, OR | 100.0% [99.1; 100.0] (n=407) | 0.0% [0.0; 7.0] (n=51) | Normal 100.0% | IR 100.0% | OR 66.2% |
+| CWRU | Random Forest (somente envelope) | P3 (leave-one-severity-out) | IR, OR | 75.4% [71.0; 79.4] (n=407) | 23.5% [14.0; 36.8] (n=51) | Normal 76.5% | IR 84.8% | OR 66.7% |

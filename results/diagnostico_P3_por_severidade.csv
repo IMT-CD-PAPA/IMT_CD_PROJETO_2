@@ -1,0 +1,28 @@
+Defeito fora do treino,Modelo,Atributos,Acurácia,Recall Normal,Recall IR,Recall OR,Faixa usada (Hz)
+"0,007""",Random Forest,tempo,0.554,1.0,1.0,0.0,5000 a 9000
+"0,007""",Random Forest,espectro (faixas),0.554,1.0,0.0,1.0,5000 a 9000
+"0,007""",Random Forest,envelope,0.968,0.71,1.0,1.0,5000 a 9000
+"0,007""",Random Forest,tempo + envelope,0.987,1.0,1.0,0.97,5000 a 9000
+"0,007""",SVM (RBF),tempo + envelope,0.554,1.0,1.0,0.0,5000 a 9000
+"0,007""",kNN (k=5),tempo + envelope,0.975,0.76,1.0,1.0,5000 a 9000
+"0,007""",Regressão logística,tempo + envelope,0.994,0.94,1.0,1.0,5000 a 9000
+"0,007""",Pipeline duas etapas,tempo + envelope,0.987,1.0,1.0,0.97,5000 a 9000
+"0,007""","Pipeline, tipo só por envelope",envelope,1.0,1.0,1.0,1.0,5000 a 9000
+"0,014""",Random Forest,tempo,0.146,1.0,0.07,0.0,2500 a 4500
+"0,014""",Random Forest,espectro (faixas),0.451,1.0,0.84,0.0,2500 a 4500
+"0,014""",Random Forest,envelope,0.306,1.0,0.47,0.0,2500 a 4500
+"0,014""",Random Forest,tempo + envelope,0.424,1.0,0.77,0.0,2500 a 4500
+"0,014""",SVM (RBF),tempo + envelope,0.139,1.0,0.05,0.0,2500 a 4500
+"0,014""",kNN (k=5),tempo + envelope,0.146,1.0,0.07,0.0,2500 a 4500
+"0,014""",Regressão logística,tempo + envelope,0.444,1.0,0.82,0.0,2500 a 4500
+"0,014""",Pipeline duas etapas,tempo + envelope,0.472,1.0,0.89,0.0,2500 a 4500
+"0,014""","Pipeline, tipo só por envelope",envelope,0.521,1.0,1.0,0.01,2500 a 4500
+"0,021""",Random Forest,tempo,0.121,1.0,0.03,0.0,7000 a 8000
+"0,021""",Random Forest,espectro (faixas),0.529,1.0,0.94,0.0,7000 a 8000
+"0,021""",Random Forest,envelope,0.955,0.59,1.0,1.0,7000 a 8000
+"0,021""",Random Forest,tempo + envelope,0.439,1.0,0.74,0.0,7000 a 8000
+"0,021""",SVM (RBF),tempo + envelope,0.357,0.94,0.57,0.0,7000 a 8000
+"0,021""",kNN (k=5),tempo + envelope,0.363,0.94,0.59,0.0,7000 a 8000
+"0,021""",Regressão logística,tempo + envelope,0.248,0.94,0.33,0.0,7000 a 8000
+"0,021""",Pipeline duas etapas,tempo + envelope,0.446,1.0,0.76,0.0,7000 a 8000
+"0,021""","Pipeline, tipo só por envelope",envelope,0.987,1.0,1.0,0.97,7000 a 8000

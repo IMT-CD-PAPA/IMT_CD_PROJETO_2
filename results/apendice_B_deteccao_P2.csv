@@ -1,0 +1,25 @@
+Atributos,Carga fora do treino,Detector,TPR,FPR
+absolutos (usados no trabalho),0 HP,Isolation Forest,1.0,1.0
+absolutos (usados no trabalho),0 HP,One-Class SVM,1.0,1.0
+absolutos (usados no trabalho),0 HP,Mahalanobis (Ledoit-Wolf),1.0,1.0
+absolutos (usados no trabalho),1 HP,Isolation Forest,1.0,0.0
+absolutos (usados no trabalho),1 HP,One-Class SVM,1.0,1.0
+absolutos (usados no trabalho),1 HP,Mahalanobis (Ledoit-Wolf),1.0,1.0
+absolutos (usados no trabalho),2 HP,Isolation Forest,1.0,0.05
+absolutos (usados no trabalho),2 HP,One-Class SVM,1.0,0.2
+absolutos (usados no trabalho),2 HP,Mahalanobis (Ledoit-Wolf),1.0,0.4
+absolutos (usados no trabalho),3 HP,Isolation Forest,1.0,0.05
+absolutos (usados no trabalho),3 HP,One-Class SVM,1.0,1.0
+absolutos (usados no trabalho),3 HP,Mahalanobis (Ledoit-Wolf),1.0,1.0
+invariantes à escala,0 HP,Isolation Forest,1.0,1.0
+invariantes à escala,0 HP,One-Class SVM,1.0,1.0
+invariantes à escala,0 HP,Mahalanobis (Ledoit-Wolf),1.0,1.0
+invariantes à escala,1 HP,Isolation Forest,1.0,0.0
+invariantes à escala,1 HP,One-Class SVM,1.0,1.0
+invariantes à escala,1 HP,Mahalanobis (Ledoit-Wolf),1.0,1.0
+invariantes à escala,2 HP,Isolation Forest,1.0,0.0
+invariantes à escala,2 HP,One-Class SVM,1.0,0.1
+invariantes à escala,2 HP,Mahalanobis (Ledoit-Wolf),1.0,0.05
+invariantes à escala,3 HP,Isolation Forest,1.0,0.0
+invariantes à escala,3 HP,One-Class SVM,1.0,1.0
+invariantes à escala,3 HP,Mahalanobis (Ledoit-Wolf),1.0,0.7

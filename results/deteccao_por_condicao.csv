@@ -1,0 +1,43 @@
+Protocolo,Fora do treino,Detector,TPR,FPR
+P2,0 HP,Isolation Forest (limiar temporal),1.0,1.0
+P2,0 HP,Isolation Forest (limiar por carga),1.0,0.8
+P2,0 HP,One-Class SVM (limiar temporal),1.0,1.0
+P2,0 HP,One-Class SVM (limiar por carga),1.0,1.0
+P2,0 HP,Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,1.0
+P2,0 HP,Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,1.0
+P2,1 HP,Isolation Forest (limiar temporal),1.0,0.0
+P2,1 HP,Isolation Forest (limiar por carga),1.0,0.0
+P2,1 HP,One-Class SVM (limiar temporal),1.0,1.0
+P2,1 HP,One-Class SVM (limiar por carga),1.0,0.9
+P2,1 HP,Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,1.0
+P2,1 HP,Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
+P2,2 HP,Isolation Forest (limiar temporal),1.0,0.05
+P2,2 HP,Isolation Forest (limiar por carga),1.0,0.0
+P2,2 HP,One-Class SVM (limiar temporal),1.0,0.2
+P2,2 HP,One-Class SVM (limiar por carga),1.0,0.0
+P2,2 HP,Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,0.4
+P2,2 HP,Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
+P2,3 HP,Isolation Forest (limiar temporal),1.0,0.05
+P2,3 HP,Isolation Forest (limiar por carga),1.0,0.0
+P2,3 HP,One-Class SVM (limiar temporal),1.0,1.0
+P2,3 HP,One-Class SVM (limiar por carga),1.0,0.7
+P2,3 HP,Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,1.0
+P2,3 HP,Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
+P3,"0,007""",Isolation Forest (limiar temporal),1.0,0.0
+P3,"0,007""",Isolation Forest (limiar por carga),1.0,0.0
+P3,"0,007""",One-Class SVM (limiar temporal),1.0,0.0
+P3,"0,007""",One-Class SVM (limiar por carga),1.0,0.0
+P3,"0,007""",Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,0.0
+P3,"0,007""",Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
+P3,"0,014""",Isolation Forest (limiar temporal),1.0,0.0
+P3,"0,014""",Isolation Forest (limiar por carga),1.0,0.0
+P3,"0,014""",One-Class SVM (limiar temporal),1.0,0.0
+P3,"0,014""",One-Class SVM (limiar por carga),1.0,0.0
+P3,"0,014""",Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,0.0
+P3,"0,014""",Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
+P3,"0,021""",Isolation Forest (limiar temporal),1.0,0.0
+P3,"0,021""",Isolation Forest (limiar por carga),1.0,0.0
+P3,"0,021""",One-Class SVM (limiar temporal),1.0,0.0
+P3,"0,021""",One-Class SVM (limiar por carga),1.0,0.0
+P3,"0,021""",Mahalanobis (Ledoit-Wolf) (limiar temporal),1.0,0.0
+P3,"0,021""",Mahalanobis (Ledoit-Wolf) (limiar por carga),1.0,0.0
