@@ -26,7 +26,7 @@ ECM514 Ciência de Dados, IMT, Desafio 2, Grupo 4. Dataset: CWRU Bearing Data Ce
 
 ## Como reproduzir
 
-No Colab: clique no botão acima e use Executar tudo. A primeira célula clona o repositório e baixa/verifica os dados se faltarem. Tempo total em CPU: cerca de 6 a 7 minutos.
+No Colab: clique no botão acima e use Executar tudo. A primeira célula clona o repositório e baixa/verifica os dados se faltarem. Tempo total: cerca de 14 minutos no Colab (medido em uma execução; em máquina local costuma ser mais rápido).
 
 Local: `pip install -r requirements.txt`, `python scripts/baixar_dados.py`, abrir o notebook. Semente fixa (42).
 
