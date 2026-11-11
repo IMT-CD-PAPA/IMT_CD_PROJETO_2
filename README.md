@@ -21,8 +21,8 @@ Notebook executável: `notebooks/CWRU_deteccao_diagnostico.ipynb`
 Relatório técnico: `relatorio/relatorio_tecnico.md` (anexo de matrizes de confusão em `relatorio/anexo_matrizes_confusao.md`)
 Dados: `data/raw/` (28 arquivos .mat, 214 MB), origem e hashes em `data/README.md` e `data/CHECKSUMS.sha256`
 Resultados e figuras: `results/` (tabela padronizada em `results/tabela_resumo.md`)
-Apresentação (YouTube, até 5 min): LINK_AQUI
-Slides: LINK_AQUI
+Apresentação (YouTube, até 5 min): https://www.youtube.com/watch?v=kIdDouMf-0E
+Slides: `slides/CWRU_Grupo4_apresentacao.pptx`
 
 ## Como reproduzir
 
@@ -32,12 +32,12 @@ Local: `pip install -r requirements.txt`, `python scripts/baixar_dados.py`, abri
 
 ## Resultado em uma frase
 
-Os protocolos usuais (split temporal e leave-one-load-out) saturam em 100%, então não discriminam técnicas. O teste que separa as técnicas é treinar em duas severidades de falha e testar na terceira (P3): Random Forest com atributos de tempo + envelope chega a 82,3% de TPR e 0% de FPR, com recall de OR de só 32,4%, e a severidade 0,014" é a que falha. Detalhes e discussão crítica no relatório.
+Os protocolos usuais (split temporal e leave-one-load-out) saturam em 100%, então não discriminam classificadores. O teste que separa os classificadores é treinar em duas severidades de falha e testar na terceira (P3): a acurácia do melhor classificador de três classes (Random Forest com tempo + envelope) cai para 62,2%, com recall de OR de só 32,4%, e a severidade 0,014" é a que falha. O melhor resultado no P3 é um pipeline em duas etapas (Isolation Forest para detectar, Random Forest só com envelope para o tipo): 0% de falso positivo, recall de IR 100% e de OR 66,2%. Detalhes e discussão crítica no relatório.
 
 ## Estrutura
 
-notebooks/ (notebook), scripts/ (download, auditoria do pacote Kaggle, anexos), data/, results/, relatorio/.
+notebooks/ (notebook), scripts/ (download, auditoria do pacote Kaggle, anexos, figuras do relatório), data/, results/, relatorio/, slides/ (apresentação).
 
 ## Uso de IA
 
-Claude (Anthropic, Sonnet 5.5) foi usado para estruturar o repositório, escrever e depurar o código, rodar os experimentos e redigir a primeira versão do relatório. Declaração completa e referência da ferramenta na seção 7 de `relatorio/relatorio_tecnico.md`.
+Claude (Anthropic, Sonnet 5.5) foi usado para estruturar o repositório, escrever e depurar o código, rodar os experimentos e redigir a primeira versão do relatório. Declaração completa e referência da ferramenta na seção 9 de `relatorio/relatorio_tecnico.md`.
