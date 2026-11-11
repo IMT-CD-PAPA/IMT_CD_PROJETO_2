@@ -291,7 +291,7 @@ No P3 com Random Forest (tempo + envelope), a matriz de confusão agregada das t
 - **Defeitos artificiais** (furos por eletroerosão), uma única bancada e um único tipo de rolamento. Nada aqui garante generalização para outra máquina ou para um defeito real incipiente.
 - **Hiperparâmetros fixos** (Random Forest com 300 árvores, SVM com C = 10, kNN com k = 5), sem busca em grade. Rodamos uma única semente.
 - **Escolha de decisões olhando resultados.** A análise de bandas fixas e de atributos invariantes (apêndices) foi feita depois de ver o resultado em P3 e deve ser lida como exploratória.
-- **Importância por permutação em P2 não informa.** Com 100% de acurácia e atributos redundantes (RMS, pico e energias de banda carregam a mesma informação), embaralhar um atributo isolado não derruba o F1, então todas as barras ficam em zero. Por isso a figura `08_importancia.png` não é usada neste relatório, e a evidência do atalho é a figura 6.
+- **Importância por permutação em P2 não informa.** Com 100% de acurácia e atributos redundantes (RMS, pico e energias de banda carregam a mesma informação), embaralhar um atributo isolado não derruba o F1, então todas as barras ficam em zero. Por isso a seção 8 do notebook recalcula a importância no P3, onde o modelo erra: o atributo mais usado é `env_bpfi1` (queda de cerca de 0,16 no F1 macro), muito acima dos demais, o que é coerente com a conclusão de que o envelope carrega a informação que generaliza. A evidência do atalho de amplitude em P1 e P2 continua sendo a figura 6.
 
 ### 6.5 O que faríamos com mais tempo ou dados
 
