@@ -156,7 +156,7 @@ Os classificadores foram avaliados com quatro conjuntos de atributos (tempo, esp
 
 ### 4.5 Reprodutibilidade
 
-O notebook baixa e verifica os dados (tamanho e SHA-256), fixa a semente e grava todas as tabelas e figuras em `results/`. A execução completa leva cerca de 6 a 7 minutos em CPU. As figuras 11 a 15 são geradas na seção 10b do notebook; `scripts/gerar_figuras_relatorio.py` produz as mesmas figuras fora do notebook.
+O notebook baixa e verifica os dados (tamanho e SHA-256), fixa a semente e grava todas as tabelas e figuras em `results/`. A execução completa leva cerca de 6 a 7 minutos em CPU. As figuras 11 a 15 são geradas na seção 10b do notebook.
 
 ---
 
