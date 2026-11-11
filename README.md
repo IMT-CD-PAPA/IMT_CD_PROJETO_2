@@ -17,12 +17,12 @@ ECM514 Ciência de Dados, IMT, Desafio 2, Grupo 4. Dataset: CWRU Bearing Data Ce
 
 ## Sumário dos entregáveis
 
-Notebook executável: `notebooks/CWRU_deteccao_diagnostico.ipynb`
-Relatório técnico: `relatorio/relatorio_tecnico.md` (anexo de matrizes de confusão em `relatorio/anexo_matrizes_confusao.md`)
-Dados: `data/raw/` (28 arquivos .mat, 214 MB), origem e hashes em `data/README.md` e `data/CHECKSUMS.sha256`
-Resultados e figuras: `results/` (tabela padronizada em `results/tabela_resumo.md`)
-Apresentação (YouTube, até 5 min): https://www.youtube.com/watch?v=kIdDouMf-0E
-Slides: `slides/CWRU_Grupo4_apresentacao.pptx`
+- Notebook executável: `notebooks/CWRU_deteccao_diagnostico.ipynb`
+- Relatório técnico: `relatorio/relatorio_tecnico.md` (anexo de matrizes de confusão em `relatorio/anexo_matrizes_confusao.md`)
+- Dados: `data/raw/` (28 arquivos .mat, 214 MB), origem e hashes em `data/README.md` e `data/CHECKSUMS.sha256`
+- Resultados e figuras: `results/` (tabela padronizada em `results/tabela_resumo.md`)
+- Vídeo da Apresentação: https://www.youtube.com/watch?v=kIdDouMf-0E
+- Slides: `slides/CWRU_Grupo4_apresentacao.pptx`
 
 ## Como reproduzir
 
