@@ -156,7 +156,7 @@ Os classificadores foram avaliados com quatro conjuntos de atributos (tempo, esp
 
 ### 4.5 Reprodutibilidade
 
-O notebook baixa e verifica os dados (tamanho e SHA-256), fixa a semente e grava todas as tabelas e figuras em `results/`. A execução completa leva cerca de 6 a 7 minutos em CPU. As figuras 11 a 15 vêm de `scripts/gerar_figuras_relatorio.py`.
+O notebook baixa e verifica os dados (tamanho e SHA-256), fixa a semente e grava todas as tabelas e figuras em `results/`. A execução completa leva cerca de 6 a 7 minutos em CPU. As figuras 11 a 15 são geradas na seção 10b do notebook; `scripts/gerar_figuras_relatorio.py` produz as mesmas figuras fora do notebook.
 
 ---
 
@@ -315,57 +315,57 @@ A conclusão principal é metodológica: o resultado de um protocolo só vale o 
 
 ## 8. Referências
 
-AGRESTI, A.; COULL, B. A. Approximate is better than "exact" for interval estimation of binomial proportions. *The American Statistician*, v. 52, n. 2, p. 119-126, 1998.
+AGRESTI, A.; COULL, B. A. Approximate is better than "exact" for interval estimation of binomial proportions. *The American Statistician*, v. 52, n. 2, p. 119-126, 1998. DOI: 10.2307/2685469.
 
-ANTONI, J. The spectral kurtosis: a useful tool for characterising non-stationary signals. *Mechanical Systems and Signal Processing*, v. 20, n. 2, p. 282-307, 2006.
+ANTONI, J. The spectral kurtosis: a useful tool for characterising non-stationary signals. *Mechanical Systems and Signal Processing*, v. 20, n. 2, p. 282-307, 2006. DOI: 10.1016/j.ymssp.2004.09.001.
 
-ANTONI, J. Fast computation of the kurtogram for the detection of transient faults. *Mechanical Systems and Signal Processing*, v. 21, n. 1, p. 108-124, 2007.
+ANTONI, J. Fast computation of the kurtogram for the detection of transient faults. *Mechanical Systems and Signal Processing*, v. 21, n. 1, p. 108-124, 2007. DOI: 10.1016/j.ymssp.2005.12.002.
 
-BERGMEIR, C.; BENÍTEZ, J. M. On the use of cross-validation for time series predictor evaluation. *Information Sciences*, v. 191, p. 192-213, 2012.
+BERGMEIR, C.; BENÍTEZ, J. M. On the use of cross-validation for time series predictor evaluation. *Information Sciences*, v. 191, p. 192-213, 2012. DOI: 10.1016/j.ins.2011.12.028.
 
-BREIMAN, L. Random forests. *Machine Learning*, v. 45, n. 1, p. 5-32, 2001.
+BREIMAN, L. Random forests. *Machine Learning*, v. 45, n. 1, p. 5-32, 2001. DOI: 10.1023/A:1010933404324.
 
 CASE WESTERN RESERVE UNIVERSITY. *Bearing Data Center: Seeded Fault Test Data*. Disponível em: engineering.case.edu/bearingdatacenter. Acesso em: 04 out. 2026.
 
-CHANDOLA, V.; BANERJEE, A.; KUMAR, V. Anomaly detection: a survey. *ACM Computing Surveys*, v. 41, n. 3, 2009.
+CHANDOLA, V.; BANERJEE, A.; KUMAR, V. Anomaly detection: a survey. *ACM Computing Surveys*, v. 41, n. 3, art. 15, p. 1-58, 2009. DOI: 10.1145/1541880.1541882.
 
-CORTES, C.; VAPNIK, V. Support-vector networks. *Machine Learning*, v. 20, n. 3, p. 273-297, 1995.
+CORTES, C.; VAPNIK, V. Support-vector networks. *Machine Learning*, v. 20, n. 3, p. 273-297, 1995. DOI: 10.1023/A:1022627411411.
 
-COVER, T. M.; HART, P. E. Nearest neighbor pattern classification. *IEEE Transactions on Information Theory*, v. 13, n. 1, p. 21-27, 1967.
+COVER, T. M.; HART, P. E. Nearest neighbor pattern classification. *IEEE Transactions on Information Theory*, v. 13, n. 1, p. 21-27, 1967. DOI: 10.1109/TIT.1967.1053964.
 
-DE MAESSCHALCK, R.; JOUAN-RIMBAUD, D.; MASSART, D. L. The Mahalanobis distance. *Chemometrics and Intelligent Laboratory Systems*, v. 50, n. 1, p. 1-18, 2000.
+DE MAESSCHALCK, R.; JOUAN-RIMBAUD, D.; MASSART, D. L. The Mahalanobis distance. *Chemometrics and Intelligent Laboratory Systems*, v. 50, n. 1, p. 1-18, 2000. DOI: 10.1016/S0169-7439(99)00047-7.
 
-FAWCETT, T. An introduction to ROC analysis. *Pattern Recognition Letters*, v. 27, n. 8, p. 861-874, 2006.
+FAWCETT, T. An introduction to ROC analysis. *Pattern Recognition Letters*, v. 27, n. 8, p. 861-874, 2006. DOI: 10.1016/j.patrec.2005.10.010.
 
-HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. *The Elements of Statistical Learning*. 2. ed. New York: Springer, 2009.
+HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. *The Elements of Statistical Learning*. 2. ed. New York: Springer, 2009. DOI: 10.1007/978-0-387-84858-7.
 
-HOSMER, D. W.; LEMESHOW, S.; STURDIVANT, R. X. *Applied Logistic Regression*. 3. ed. Hoboken: Wiley, 2013.
+HOSMER, D. W.; LEMESHOW, S.; STURDIVANT, R. X. *Applied Logistic Regression*. 3. ed. Hoboken: Wiley, 2013. DOI: 10.1002/9781118548387.
 
-LEDOIT, O.; WOLF, M. A well-conditioned estimator for large-dimensional covariance matrices. *Journal of Multivariate Analysis*, v. 88, n. 2, p. 365-411, 2004.
+LEDOIT, O.; WOLF, M. A well-conditioned estimator for large-dimensional covariance matrices. *Journal of Multivariate Analysis*, v. 88, n. 2, p. 365-411, 2004. DOI: 10.1016/S0047-259X(03)00096-4.
 
-LIU, F. T.; TING, K. M.; ZHOU, Z.-H. Isolation forest. In: IEEE INTERNATIONAL CONFERENCE ON DATA MINING (ICDM), 8., 2008. p. 413-422.
+LIU, F. T.; TING, K. M.; ZHOU, Z.-H. Isolation forest. In: IEEE INTERNATIONAL CONFERENCE ON DATA MINING (ICDM), 8., 2008. p. 413-422. DOI: 10.1109/ICDM.2008.17.
 
-LIU, F. T.; TING, K. M.; ZHOU, Z.-H. Isolation-based anomaly detection. *ACM Transactions on Knowledge Discovery from Data*, v. 6, n. 1, 2012.
+LIU, F. T.; TING, K. M.; ZHOU, Z.-H. Isolation-based anomaly detection. *ACM Transactions on Knowledge Discovery from Data*, v. 6, n. 1, p. 1-39, 2012. DOI: 10.1145/2133360.2133363.
 
-MCFADDEN, P. D.; SMITH, J. D. Model for the vibration produced by a single point defect in a rolling element bearing. *Journal of Sound and Vibration*, v. 96, n. 1, p. 69-82, 1984.
+MCFADDEN, P. D.; SMITH, J. D. Model for the vibration produced by a single point defect in a rolling element bearing. *Journal of Sound and Vibration*, v. 96, n. 1, p. 69-82, 1984. DOI: 10.1016/0022-460X(84)90595-9.
 
-NEUPANE, D.; SEOK, J. Bearing fault detection and diagnosis using Case Western Reserve University dataset with deep learning approaches: a review. *IEEE Access*, v. 8, 2020.
+NEUPANE, D.; SEOK, J. Bearing fault detection and diagnosis using Case Western Reserve University dataset with deep learning approaches: a review. *IEEE Access*, v. 8, p. 93155-93178, 2020. DOI: 10.1109/ACCESS.2020.2990528.
 
 PEDREGOSA, F. et al. Scikit-learn: machine learning in Python. *Journal of Machine Learning Research*, v. 12, p. 2825-2830, 2011.
 
-RANDALL, R. B. *Vibration-based Condition Monitoring*. Chichester: Wiley, 2011.
+RANDALL, R. B. *Vibration-based Condition Monitoring*. Chichester: Wiley, 2011. DOI: 10.1002/9780470977668.
 
-RANDALL, R. B.; ANTONI, J. Rolling element bearing diagnostics: a tutorial. *Mechanical Systems and Signal Processing*, v. 25, n. 2, p. 485-520, 2011.
+RANDALL, R. B.; ANTONI, J. Rolling element bearing diagnostics: a tutorial. *Mechanical Systems and Signal Processing*, v. 25, n. 2, p. 485-520, 2011. DOI: 10.1016/j.ymssp.2010.07.017.
 
-SCHÖLKOPF, B. et al. Estimating the support of a high-dimensional distribution. *Neural Computation*, v. 13, n. 7, p. 1443-1471, 2001.
+SCHÖLKOPF, B. et al. Estimating the support of a high-dimensional distribution. *Neural Computation*, v. 13, n. 7, p. 1443-1471, 2001. DOI: 10.1162/089976601750264965.
 
-SMITH, W. A.; RANDALL, R. B. Rolling element bearing diagnostics using the Case Western Reserve University data: a benchmark study. *Mechanical Systems and Signal Processing*, v. 64-65, p. 100-131, 2015.
+SMITH, W. A.; RANDALL, R. B. Rolling element bearing diagnostics using the Case Western Reserve University data: a benchmark study. *Mechanical Systems and Signal Processing*, v. 64-65, p. 100-131, 2015. DOI: 10.1016/j.ymssp.2015.04.021.
 
-TAX, D. M. J.; DUIN, R. P. W. Support vector data description. *Machine Learning*, v. 54, n. 1, p. 45-66, 2004.
+TAX, D. M. J.; DUIN, R. P. W. Support vector data description. *Machine Learning*, v. 54, n. 1, p. 45-66, 2004. DOI: 10.1023/B:MACH.0000008084.60811.49.
 
-WILSON, E. B. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association*, v. 22, n. 158, p. 209-212, 1927.
+WILSON, E. B. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association*, v. 22, n. 158, p. 209-212, 1927. DOI: 10.1080/01621459.1927.10502953.
 
-Nota do grupo: as referências foram escritas pela IA a partir de memória, e só quatro tiveram a existência confirmada por busca (Antoni, 2007; Neupane e Seok, 2020; Bergmeir e Benítez, 2012; Liu et al., 2012). Conferir cada uma (título, páginas e DOI) antes da entrega.
+Nota: título, periódico, volume, páginas e ano de cada referência foram conferidos em 11/11/2026 com auxílio da IA, no registro do DOI (Crossref) e, no caso do scikit-learn, na página do JMLR. Os DOIs listados são os desse registro.
 
 ---
 
@@ -375,4 +375,4 @@ Ferramenta: Claude (Anthropic), modelo Claude Sonnet 5.5, usado via Claude Code 
 
 Para que foi usada: (1) comparar datasets do enunciado e recomendar o CWRU; (2) montar a estrutura do repositório conforme o enunciado e a rubrica; (3) escrever e depurar o código do notebook e dos scripts (leitura dos .mat, janelamento, atributos, detectores, classificadores, protocolos P1/P2/P3, intervalos de Wilson); (4) auditar o pacote do Kaggle e encontrar as armadilhas dos dados (taxa de amostragem dos Normais, variáveis duplicadas, Normal_2 repetido); (5) rodar os experimentos e gerar tabelas e figuras; (6) redigir a primeira versão deste relatório e dos READMEs; (7) sugerir referências.
 
-O que a IA não substitui: as decisões de escolher o CWRU e de aceitar o escopo de 3 classes foram do grupo. Os números do relatório vêm da execução do notebook (`results/`), não de texto gerado. As referências marcadas como "existência confirmada" foram checadas por busca; as demais foram sugeridas de memória pela IA e devem ser conferidas pelo grupo, que também responde pelo conteúdo final.
+O que a IA não substitui: as decisões de escolher o CWRU e de aceitar o escopo de 3 classes foram do grupo. Os números do relatório vêm da execução do notebook (`results/`), não de texto gerado. As referências foram sugeridas inicialmente pela IA e depois conferidas uma a uma, também com auxílio da IA, no registro do DOI (Crossref) ou no site do periódico; o grupo responde pelo conteúdo final.
